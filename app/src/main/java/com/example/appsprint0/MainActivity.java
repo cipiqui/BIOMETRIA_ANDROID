@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d("clienterestandroid", "boton_enviar_pulsado");
         try {
-            datos_muestra.put("ID", major);
-            datos_muestra.put("Medicion", minor);
+            datos_muestra.put("MedicionMajor", major);
+            datos_muestra.put("MedicionMinor", minor);
             Log.d("clienterestandroid", String.valueOf(datos_muestra));
             string_json = String.valueOf(datos_muestra);
         } catch (JSONException e) {
